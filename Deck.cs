@@ -144,7 +144,7 @@ namespace Deck
             //Console.WriteLine(position);
             Check += 4;
             if (position < 0 || position > Count)
-                throw new Exception("Иди нахуй с такими значениями");
+                throw new Exception("Выход за пределы!");
             
             int size = Count;
             Check += 3;
@@ -171,7 +171,7 @@ namespace Deck
             //Console.WriteLine(position);
             Check += 5;
             if (position < 0 || position > Count)
-                throw new Exception("Иди нахуй с такими значениями");
+                throw new Exception("Выход за пределы!");
             
             int size = Count;
             Check += 3;
